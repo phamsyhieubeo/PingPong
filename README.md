@@ -1,77 +1,65 @@
-Here's a `README.md` document for your project:
+Here's a simplified version of the `README.md` for your first assessment:
 
-```md
+```markdown
 # Ping Pong Game
 
 ## Overview
 
-This project is a Ping Pong game built using Python's `turtle` and `tkinter` libraries. The game offers a simple interface where players can control paddles to play a classic Pong-style game. Players can also adjust game settings and learn how to play from the main menu. 
+This is a simple Ping Pong game made with Python. You can control paddles and hit the ball, just like in the old Pong games. You can also change settings, and the game has a menu to help you start or learn how to play.
 
 ## Features
 
-- **Main Menu**: Start the game, access settings, or learn how to play from the intuitive main menu.
-- **Paddle Control**: Player A uses `W` and `S` keys, while Player B uses the `Up` and `Down` arrow keys to move the paddles.
-- **Settings**: Change the ball shape to either a square or circle.
-- **Game Controls**:
-  - `W/Up` for moving paddles up
-  - `S/Down` for moving paddles down
-  - `R` to reset the game
-  - `ESC` to quit the game
-
-## Dependencies
-
-- `turtle`: Used for creating the game's graphics and animations.
-- `tkinter`: Provides the GUI interface for the main menu and settings.
-- `json`: To load and store game settings such as ball shape.
+- **Main Menu**: Start the game, go to settings, or see how to play.
+- **Paddle Controls**: 
+  - Player A: Use `W` to move up and `S` to move down.
+  - Player B: Use the `Up Arrow` to move up and the `Down Arrow` to move down.
+- **Settings**: You can change the shape of the ball (either a square or a circle).
+- **Other Controls**:
+  - Press `R` to reset the game.
+  - Press `ESC` to quit the game.
 
 ## How to Play
 
-1. Open the main menu to start the game.
-2. Control paddles with the following keys:
-   - Player A: `W` to move up, `S` to move down.
-   - Player B: `Up Arrow` to move up, `Down Arrow` to move down.
-3. The ball bounces off the top and bottom edges of the window. If the ball passes a paddle, the opposing player scores.
-4. First player to a set number of points (or time) wins the game.
+1. Open the main menu and click "Start" to begin the game.
+2. Player A uses the `W` and `S` keys to move the paddle.
+3. Player B uses the `Up Arrow` and `Down Arrow` keys to move the paddle.
+4. The ball will bounce off the top and bottom walls. If it goes past a paddle, the other player gets a point.
+5. The scores are shown at the top of the screen.
 
 ## Installation
 
-1. Clone this repository to your local machine:
+1. Download or clone this project:
    ```bash
    git clone <repository-url>
-2. Ensure that Python and the required libraries (`turtle`, `tkinter`, `json`) are installed on your system.
-3. Navigate to the project folder and run the game:
-   python <filename>.py
+   ```
+2. Make sure you have Python installed on your computer.
+3. Run the game with:
+   `python <filename>.py`
 
 ## Game Controls
 
-- **W/Up**: Move the paddle up.
-- **S/Down**: Move the paddle down.
-- **R**: Reset the game score and the ball position.
-- **ESC**: Quit the game.
+- **W/Up Arrow**: Move the paddle up.
+- **S/Down Arrow**: Move the paddle down.
+- **R**: Reset the game score.
+- **ESC**: Exit the game.
 
 ## Settings
 
-You can customize the ball's shape in the **Settings** menu:
+You can change the shape of the ball in the **Settings** menu. The options are:
+- **Square**
+- **Circle**
 
-- Ball Shape: Choose between a `square` or `circle`.
+The settings are saved in a file called `Setting.json`, so they will stay the same next time you play.
 
-The settings are saved in the `Setting/Setting.json` file, and changes made in the settings menu are stored for future games.
+## How to Change the Game
 
-## How to Modify
-
-If you want to modify the game:
-
-- **Game Settings**: You can adjust ball behavior, speed, and more by editing the game logic in the `GamePlay()` function.
-- **Menu Customization**: The `tkinter` interface allows for simple customization of buttons, labels, and other widgets in the `main_menu()` function.
-- **Settings File**: The game settings are stored in `Setting/Setting.json`. You can manually edit this file to change settings like ball shape without using the in-game menu.
-
-## Contributing
-
-Contributions to this project are welcome. If you want to improve the game or add new features, feel free to submit a pull request or open an issue.
+- You can change the speed of the ball or other things in the game by editing the code.
+- The main menu and settings can also be changed easily by modifying the `main_menu()` function in the code.
+- You can also change the settings in the `Setting/Setting.json` file to directly adjust the ball shape or other options.
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is free to use and share under the MIT License.
+```
 
-
-This `README.md` should give an overview of the Ping Pong game, its features, installation instructions, and how to modify or contribute to the project.```
+This version is written in simpler language for a Year 10 audience and should be easy to follow. Let me know if you'd like any other adjustments!
