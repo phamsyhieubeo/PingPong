@@ -29,9 +29,8 @@ This is a simple Ping Pong game made with Python. You can control paddles and hi
 ## Installation
 
 1. Download or clone this project:
-   ```bash
-   git clone <repository-url>
-   ```
+   `git clone <repository-url>`
+  
 2. Make sure you have Python installed on your computer.
 3. Run the game with:
    `python <filename>.py`
@@ -63,3 +62,4 @@ This project is free to use and share under the MIT License.
 ```
 
 This version is written in simpler language for a Year 10 audience and should be easy to follow. Let me know if you'd like any other adjustments!
+ ```
