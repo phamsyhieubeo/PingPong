@@ -2,9 +2,9 @@
 <h2>Sy Hieu Pham</h2>
 
 <h2>Introduction</h2>
-```
-This Ping Pong game is a simple Python project using turtle and tkinter. The game includes a main menu with options to start, adjust settings, view controls, or quit. Players control paddles using the keyboard, with Player A using W and S, and Player B using the arrow keys. The ball bounces off the walls, and points are scored when a player misses. Settings allow the ball shape to be changed between a square and a circle. The game features reset and quit functions and keeps track of player scores.
-```
+```markdown
+This Ping Pong game is a simple Python project using turtle and tkinter. The game includes a main menu with options to start, adjust settings, view controls, or quit. Players control paddles using the keyboard, with Player A using W and S, and Player B using the arrow keys. The ball bounces off the walls, and points are scored when a player misses. Settings allow the ball shape to be changed between a square and a circle. The game features reset and quit functions and keeps track of player scores.```
+
 
 <h2>Explanation code</h2>
 
