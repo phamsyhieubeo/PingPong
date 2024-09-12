@@ -1,6 +1,6 @@
 Here's a `README.md` document for your project:
 
-```markdown
+```md
 # Ping Pong Game
 
 ## Overview
