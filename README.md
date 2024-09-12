@@ -55,11 +55,4 @@ The settings are saved in a file called `Setting.json`, so they will stay the sa
 - You can change the speed of the ball or other things in the game by editing the code.
 - The main menu and settings can also be changed easily by modifying the `main_menu()` function in the code.
 - You can also change the settings in the `Setting/Setting.json` file to directly adjust the ball shape or other options.
-
-## License
-
-This project is free to use and share under the MIT License.
-```
-
-This version is written in simpler language for a Year 10 audience and should be easy to follow. Let me know if you'd like any other adjustments!
  ```
