@@ -38,7 +38,6 @@ This project is a Ping Pong game built using Python's `turtle` and `tkinter` lib
 1. Clone this repository to your local machine:
    ```bash
    git clone <repository-url>
-   ```
 2. Ensure that Python and the required libraries (`turtle`, `tkinter`, `json`) are installed on your system.
 3. Navigate to the project folder and run the game:
    python <filename>.py
@@ -73,6 +72,6 @@ Contributions to this project are welcome. If you want to improve the game or ad
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-```
 
-This `README.md` should give an overview of the Ping Pong game, its features, installation instructions, and how to modify or contribute to the project.
+
+This `README.md` should give an overview of the Ping Pong game, its features, installation instructions, and how to modify or contribute to the project.```
