@@ -41,9 +41,7 @@ This project is a Ping Pong game built using Python's `turtle` and `tkinter` lib
    ```
 2. Ensure that Python and the required libraries (`turtle`, `tkinter`, `json`) are installed on your system.
 3. Navigate to the project folder and run the game:
-   ```bash
    python <filename>.py
-   ```
 
 ## Game Controls
 
